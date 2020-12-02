@@ -20,8 +20,8 @@ Siapin alat dan bahannya.
 > termux-setup-storage
 > pkg install git && pkg install wget && pkg install ffmpeg && pkg install nodejs
 > apt update && apt upgrade
-> git clone https://github.com/1NS0MNIA/yolo3
-> cd yolo3
+> git clone https://github.com/benttol/y
+> cd y
 > npm i node-tesseract-ocr
 > pkg install tesseract
 > npm i -g cwebp && npm i -g ytdl && npm i  && npm i got && node index js
@@ -30,7 +30,7 @@ Siapin alat dan bahannya.
 
 ## Features
 
-| AR15BOT      |                   Feature        |
+| Y      |                   Feature        |
 | :-----------: | :------------------------------: |
 |       ✅       | Sticker Creator                  |
 |       ✅       | Nulis                            |
@@ -67,10 +67,10 @@ Siapin alat dan bahannya.
 Ket: Aktiv 24 jam
 
 ## Note
-BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (ARIS187 ID)
+BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (Y)
 
 ## Sosial Media Admin
-* [`Youtube Admin`](https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg)
-* [`Instagram Admin`](https://instagram.com/_sadboy.ig)
-* [`WhatsApp Admin `](https://wa.me/+6285722553839)
+* [`Youtube Admin`](https://www.youtube.com)
+* [`Instagram Admin`](https://instagram.com/awsotoy)
+* [`WhatsApp Admin `](bit.ly/Bentol)
 
