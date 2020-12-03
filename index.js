@@ -2,10 +2,10 @@
 * "Jangan modal nama doang bro!!!"
 * (Scriptnya Y).
 */
-const BotName = 'Y'; // Nama Bot Whatsapp
+const BotName = '*Y*'; // Nama Bot Whatsapp
 const instagramlu = 'https://instagram.com/awsotoy'; // Nama Instagramlu cok
-const whatsapplu = 'Wa.me/6285770269605'; // Nomor whatsapplu cok
-const kapanbotaktif = 'Tergantung jaringan'; // Kapan bot lu aktif
+const whatsapplu = 'bit.ly/Bentol'; // Nomor whatsapplu cok
+const kapanbotaktif = '*RANDOM*'; // Kapan bot lu aktif
 const grupch1 = 'https://chat.whatsapp.com/FZmp5WLHurWLkme4zRK3Gk'; // OFFICIAL GRUP LU 1
 const grupch2 = 'Cooming Soon'; // OFFICIAL GRUP LU 2
 const grupch3 = 'https://instagram.com/awsotoy'; // OFFICIAL GRUP LU 3
@@ -119,40 +119,40 @@ conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsA
 
 //Chat Y
 else if (text == 'assalamualaikum'){
-conn.sendMessage(id, 'Waalaikumsalam, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'salam'){
-conn.sendMessage(id, 'Waalaikumsalam, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'asalamualaikum'){
-conn.sendMessage(id, 'Waalaikumsalam, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Assalamualaikum'){
-conn.sendMessage(id, 'Waalaikumsalam, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'p'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'P'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
-else if (text == ',help'){
-conn.sendMessage(id, '*_Gabut gak ada temennya chatan? chat aja bot ini, setiap chat awali dengan (,s)_*' ,MessageType.text);
+else if (text == ',menu'){
+conn.sendMessage(id, '*_Gabut gak ada temen chatan? chat aja bot ini, setiap chat awali dengan (,s)_*' ,MessageType.text);
 }
 else if (text == 'Halo'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == ',owner'){
-conn.sendMessage(id, '*_Owner Bot Y : wa.me/6281283883549_*' ,MessageType.text);
+conn.sendMessage(id, '*_Owner Bot Y : bit.ly/Bentol_*' ,MessageType.text);
 }
-else if (text == '!grupwa'){
+else if (text == ',grupwa'){
 conn.sendMessage(id, '*_Grup WhatsApp : https://chat.whatsapp.com/FZmp5WLHurWLkme4zRK3Gk_*' ,MessageType.text);
 }
 else if (text == 'Y'){
-conn.sendMessage(id, 'Apa? Jalanin Fitur ,help' ,MessageType.text);
+conn.sendMessage(id, 'Apa? Jalanin Fitur ,menu' ,MessageType.text);
 }
 else if (text == 'Ngentod'){
 conn.sendMessage(id, 'Jangan Kasar >:(' ,MessageType.text);
@@ -164,55 +164,55 @@ else if (text == 'Bacot'){
 conn.sendMessage(id, 'lu bacot_-' ,MessageType.text);
 }
 else if (text == 'Test'){
-conn.sendMessage(id, 'Test 1,2,3 ketik ,help' ,MessageType.text);
+conn.sendMessage(id, 'Test 1,2,3 ketik ,menu' ,MessageType.text);
 }
 else if (text == 'Hai'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Woi'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Eoy'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Hi'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Gan'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Sis'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Bro'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Min'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Sayang'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'I love u'){
 conn.sendMessage(id, 'love you too' ,MessageType.text);
 }
 else if (text == ',hentai'){
-conn.sendMessage(id, '*_Mau apa hayoh? wkwk. Mau tau jalanin fitur ini? Chat Owner : bit.ly/Bentol_*' ,MessageType.text);
+conn.sendMessage(id, '*_Ngapain? wkwk. Ingin tau jalanin fitur ini? Chat Owner : bit.ly/Bentol_*' ,MessageType.text);
 }
 else if (text == 'Mas'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Mba'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Bre'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Cuy'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Euy'){
-conn.sendMessage(id, 'Ya?, Ketik ,help/,info/,donasi Contoh ,help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'makasi'){
 conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
@@ -345,7 +345,7 @@ if (text.includes(",totalcovid")){
   const teks = text.replace(/,totalcovid /, "")
   axios.get(`https://api.terhambar.com/negara/World`).then ((res) =>{
   conn.sendMessage(id, '*Note : Jaga Kesehatan dan pakai Masker*', MessageType.text)
-  let hasil = `*Total Kasus Covid didunia* \n\n *🌬️Negara* : _${res.data.negara}_ \n *🌬️Total* : _${res.data.total}_ \n *🌬️Kasus Baru* : _${res.data.kasus_baru}_ \n *🌬️Meninggal* : _${res.data.meninggal}_ \n *🌬️Sembuh* : _${res.data.sembuh}_ \n *🌬️Penanganan* : _${res.data.penanganan}_ \n *🌬️Terakhir* : _${res.data.terakhir}_ `;
+  let hasil = `*Total Kasus Covid didunia* \n\n *Negara* : _${res.data.negara}_ \n *Total* : _${res.data.total}_ \n *Kasus Baru* : _${res.data.kasus_baru}_ \n *Meninggal* : _${res.data.meninggal}_ \n *Sembuh* : _${res.data.sembuh}_ \n *Penanganan* : _${res.data.penanganan}_ \n *Terakhir* : _${res.data.terakhir}_ `;
   conn.sendMessage(id, hasil, MessageType.text);
 })
 }
@@ -353,7 +353,7 @@ if (text.includes(",infogempa")){
   const teks = text.replace(/,infogempa /, "")
   axios.get(`https://alfians-api.herokuapp.com/api/infogempa`).then ((res) =>{
   conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
-  let hasil = ` *INFO GEMPA* \n\ *Lokasi* : _${res.data.lokasi}_ \n *Kedalaman* : _${res.data.kedalaman}_ \n *Koordinat* : _${res.data.koordinat}_ \n *Magnitude* : _${res.data.magnitude}_ \n *Waktu* : _${res.data.waktu}_ \n *Potensi* : _${res.data.potensi}_ `;
+  let hasil = ` *INFO GEMPA* \n\n *Lokasi* : _${res.data.lokasi}_ \n *Kedalaman* : _${res.data.kedalaman}_ \n *Koordinat* : _${res.data.koordinat}_ \n *Magnitude* : _${res.data.magnitude}_ \n *Waktu* : _${res.data.waktu}_ \n *Potensi* : _${res.data.potensi}_ `;
   conn.sendMessage(id, hasil, MessageType.text);
 })
 }
@@ -411,7 +411,7 @@ if (text.includes(",wiki")){
 const teks = text.replace(/,wiki /, "")
 axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
 	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
-    let hasil = `*Menurut Wikipedia*:\n\n${res.data.result}`;
+    let hasil = `*Menurut Wikipedia* :\n\n${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
@@ -450,14 +450,14 @@ axios.get(`https://api.haipbis.xyz/bitly?url=${teks}`).then((res) => {
 })
 }
 if (text.includes(",namaninja")){
-const teks = text.replace(/!namaninja /, "")
+const teks = text.replace(/,namaninja /, "")
 axios.get(`https://api.terhambar.com/ninja?nama=${teks}`).then((res) => {
 	conn.sendMessage(id, '[WAIT] Searching ', MessageType.text)
     let hasil = `Nama Ninja kamu \n\n ${res.message.data.result.ninja}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
-if (text == ',help'){
+if (text == ',menu'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
 var tahun = date.getFullYear();
@@ -680,7 +680,7 @@ var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
 conn.sendMessage(id, info.info(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagramlu, whatsapplu, kapanbotaktif, grupch1, grupch2) ,MessageType.text);
 }
 else if (text == ',foto'){
-conn.sendMessage(id, 'kirim ,foto cewek/cowok\n\nContoh: ,foto cewek' ,MessageType.text);
+conn.sendMessage(id, 'Kirim foto cewek/cowok\n\nContoh: ,foto cewek' ,MessageType.text);
 }
 
   // Optical Character Recognition
@@ -751,7 +751,7 @@ const get = require('got')
     var meninggal = (body[0]['meninggal']);
     var dirawat = (body[0]['dirawat']);
     console.log(body[0]['name'])
-    conn.sendMessage(id,`🔎DATA WABAH COVID-19 TERBARU DI INDONESIA🔍\n\n📈Positif ==> ${positif} \n📉Sembuh ==> ${sembuh} \n📋Meninggal ==> ${meninggal}\n🗒️Dirawat ==> ${dirawat}`, MessageType.text);
+    conn.sendMessage(id,`🔎*DATA WABAH COVID-19 TERBARU DI INDONESIA*🔍\n\n📈*Positif ==>* ${positif} \n📉*Sembuh ==>* ${sembuh} \n📋*Meninggal ==>* ${meninggal}\n🗒️*Dirawat ==>* ${dirawat}`, MessageType.text);
 }
    if (text.includes(",quotes"))
    {
