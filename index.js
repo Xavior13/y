@@ -151,7 +151,7 @@ conn.sendMessage(id, '*_Owner Bot Y : bit.ly/Bentol_*' ,MessageType.text);
 else if (text == ',grupwa'){
 conn.sendMessage(id, '*_Grup WhatsApp : https://chat.whatsapp.com/FZmp5WLHurWLkme4zRK3Gk_*' ,MessageType.text);
 }
-else if (text == 'Y'){
+else if (text == 'Bentol'){
 conn.sendMessage(id, 'Apa? Jalanin Fitur ,menu' ,MessageType.text);
 }
 else if (text == 'Ngentod'){
