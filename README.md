@@ -30,7 +30,7 @@ Siapin alat dan bahannya.
 
 ## Features
 
-| Y      |                   Feature        |
+| *Y*      |                   Feature        |
 | :-----------: | :------------------------------: |
 |       ✅       | Sticker Creator                  |
 |       ✅       | Nulis                            |
