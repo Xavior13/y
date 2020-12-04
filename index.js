@@ -263,7 +263,7 @@ if (text.includes('!t2s')){
         .then(
           (ress) => {
             var buf = Buffer.from(ress, 'base64')
-            conn.sendMessage(id, buf, MessageType.image) => {
+            conn.sendMessage(id, buf, MessageType.image)
             const stiker = await conn.downloadAndSaveMediaMessage(m) // to decrypt & save to file
 
          const
