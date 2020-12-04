@@ -2,7 +2,7 @@
 * "Jangan modal nama doang bro!!!"
 * (Scriptnya Y).
 */
-const BotName = '**Y**'; // Nama Bot Whatsapp
+const BotName = '*Y*'; // Nama Bot Whatsapp
 const instagramlu = 'https://instagram.com/awsotoy'; // Nama Instagramlu cok
 const whatsapplu = 'bit.ly/Bentol'; // Nomor whatsapplu cok
 const kapanbotaktif = '*RANDOM*'; // Kapan bot lu aktif
