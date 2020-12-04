@@ -1,5 +1,5 @@
 # BOT WHATSAPP
-BOT WHATSAPP TERMUX
+BENTOL GANS
 
 ### Alat dan Bahan
 Siapin alat dan bahannya.
