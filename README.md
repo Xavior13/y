@@ -64,7 +64,7 @@ Siapin alat dan bahannya.
 |       ✅       | Pokemon                          |
 |       ✅       | Info                             |
 |       ✅       | Donate                           |
-Ket: Aktiv 24 jam
+Ket: Aktiv RANDOM
 
 ## Note
 BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (Y)
