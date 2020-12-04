@@ -146,10 +146,10 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == ',owner'){
-conn.sendMessage(id, '*_Owner Bot Y : bit.ly/Bentol_*' ,MessageType.text);
+conn.sendMessage(id, '*Owner Bot *Y* :* *_bit.ly/Bentol_*' ,MessageType.text);
 }
 else if (text == ',grupwa'){
-conn.sendMessage(id, '*_Grup WhatsApp : https://chat.whatsapp.com/FZmp5WLHurWLkme4zRK3Gk_*' ,MessageType.text);
+conn.sendMessage(id, '*Grup WhatsApp :* *_https://chat.whatsapp.com/FZmp5WLHurWLkme4zRK3Gk_*' ,MessageType.text);
 }
 else if (text == 'Bentol'){
 conn.sendMessage(id, 'Apa? Jalanin Fitur ,menu' ,MessageType.text);
@@ -248,13 +248,36 @@ if (text.includes(',nulis')){
       imageToBase64(res.data.result)
         .then(
           (ress) => {
-            conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+            conn.sendMessage(id, '[TUNGGU] Sedang mencari...🔍', MessageType.text)
             var buf = Buffer.from(ress, 'base64')
             conn.sendMessage(id, buf, MessageType.image)
         })
     })
 }
+	
+if (text.includes('!t2s')){
+  var teks = text.replace(/!t2s /, '')
+    axios.get('https://mhankbarbar.herokuapp.com/api/text2image?text=${teks}&apiKey=SLpvUgOcMYwIx0pFeELt')
+    .then((res) => {
+      imageToBase64(res.data.result)
+        .then(
+          (ress) => {
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image) => {
+            const stiker = await conn.downloadAndSaveMediaMessage(m) // to decrypt & save to file
 
+         const
+         {
+            exec
+         } = require("child_process");
+         exec('cwebp -q 50 ' + stiker + ' -o temp/' + jam + '.webp', (error, stdout, stderr) =>
+         {
+            let stik = fs.readFileSync('temp/' + jam + '.webp')
+            conn.sendMessage(id, stik, MessageType.sticker)
+        })
+    })
+}
+	      
 if (text.includes(',waifu')){
   var teks = text.replace(/!waifu /, '')
     axios.get('https://st4rz.herokuapp.com/api/waifu')
@@ -262,7 +285,7 @@ if (text.includes(',waifu')){
       imageToBase64(res.data.image)
         .then(
           (ress) => {
-            conn.sendMessage(id, '[TUNGGU] Sedang Mencari...❗', MessageType.text)
+            conn.sendMessage(id, '[TUNGGU] Sedang Mencari...🔍', MessageType.text)
             var buf = Buffer.from(ress, 'base64')
             conn.sendMessage(id, buf, MessageType.image)
         })
@@ -276,15 +299,15 @@ if (text.includes(',loli')){
       imageToBase64(res.data.result)
         .then(
           (ress) => {
-            conn.sendMessage(id, '[TUNGGU] Sedang Mencari...❗', MessageType.text)
+            conn.sendMessage(id, '[TUNGGU] Sedang Mencari...🔍', MessageType.text)
             var buf = Buffer.from(ress, 'base64')
             conn.sendMessage(id, buf, MessageType.image)
         })
     })
 }
 
-if (text.includes(',y')){
-  var teks = text.replace(/,y /, '')
+if (text.includes(',y,')){
+  var teks = text.replace(/,y, /, '')
     axios.get('https://nekos.life/api/v2/img/hentai')
     .then((res) => {
       imageToBase64(res.data.url)
@@ -305,7 +328,7 @@ conn.sendMessage(id, teks, MessageType.text)
 if (text.includes(",ytmp4")){
 const teks = text.replace(/,ytmp4 /, "")
 axios.get(`https://st4rz.herokuapp.com/api/ytv?url=${teks}`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+	conn.sendMessage(id, '[TUNGGU] Sedang mencari...🔍', MessageType.text)
     let hasil = `Silahkan Download, Link dibawah \n\n *Judul* : _${res.data.title}_ \n *Resolusi* : _${res.data.resolution}_ \n *Link* : _${res.data.result}_`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -313,7 +336,7 @@ axios.get(`https://st4rz.herokuapp.com/api/ytv?url=${teks}`).then((res) => {
 if (text.includes(",cuaca")){
 const teks = text.replace(/,cuaca /, "")
 axios.get(`https://rest.farzain.com/api/cuaca.php?id=${teks}&apikey=O8mUD3YrHIy9KM1fMRjamw8eg`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+	conn.sendMessage(id, '[TUNGGU] Sedang mencari...🔍', MessageType.text)
     let hasil = `*Cek Cuaca ${teks} Dibawah ini* : \n\n *Tempat* : _${res.data.respon.tempat}_ \n *Cuaca* : _${res.data.respon.cuaca}_ \n *Suhu* : _${res.data.respon.suhu}_`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -321,7 +344,7 @@ axios.get(`https://rest.farzain.com/api/cuaca.php?id=${teks}&apikey=O8mUD3YrHIy9
 if (text.includes(",ytmp3")){
 const teks = text.replace(/,ytmp3 /, "")
 axios.get(`https://st4rz.herokuapp.com/api/yta?url=${teks}`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+	conn.sendMessage(id, '[TUNGGU] Sedang mencari...🔍', MessageType.text)
     let hasil = `Silahkan Download, Link dibawah \n\n *Judul* : _${res.data.title}_ \n *Size* : _${res.data.filesize}_ \n *Link* : _${res.data.result}_`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -336,7 +359,7 @@ if (text.includes(",s")){
 if (text.includes(",infoig")){
   const teks = text.replace(/,infoig /, "")
   axios.get(`https://alfians-api.herokuapp.com/api/stalk?username=${teks}`).then ((res) =>{
-  conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+  conn.sendMessage(id, '[TUNGGU] Sedang mencari...🔍', MessageType.text)
   let hasil = `BIODATA INSTAGRAM ATAS NAMA _${teks}_ \n\n *Username✍️* : _${res.data.Username}_ \n *Nama✍️* : _${res.data.Name}_ \n *Jumlah Followers✍️* : _${res.data.Jumlah_Followers}_ \n *Jumlah_Following✍️* : _${res.data.Jumlah_Following}_ \n *Jumlah_Post✍️* : _${res.data.Jumlah_Post}_ `;
   conn.sendMessage(id, hasil, MessageType.text);
 })
@@ -352,7 +375,7 @@ if (text.includes(",totalcovid")){
 if (text.includes(",infogempa")){
   const teks = text.replace(/,infogempa /, "")
   axios.get(`https://alfians-api.herokuapp.com/api/infogempa`).then ((res) =>{
-  conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+  conn.sendMessage(id, '[TUNGGU] Sedang mencari...🔍', MessageType.text)
   let hasil = ` *INFO GEMPA* \n\n *Lokasi* : _${res.data.lokasi}_ \n *Kedalaman* : _${res.data.kedalaman}_ \n *Koordinat* : _${res.data.koordinat}_ \n *Magnitude* : _${res.data.magnitude}_ \n *Waktu* : _${res.data.waktu}_ \n *Potensi* : _${res.data.potensi}_ `;
   conn.sendMessage(id, hasil, MessageType.text);
 })
