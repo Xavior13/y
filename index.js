@@ -137,7 +137,7 @@ else if (text == 'P'){
 conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == ',menu'){
-conn.sendMessage(id, '*_Gabut gak ada temen chatan? chat aja bot ini, setiap chat awali dengan (,s)_*' ,MessageType.text);
+conn.sendMessage(id, '*DONASI TIDAK MEMBUAT ANDA MISKIN*' ,MessageType.text);
 }
 else if (text == 'Halo'){
 conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
@@ -172,7 +172,7 @@ conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.
 else if (text == 'Woi'){
 conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
-else if (text == 'Eoy'){
+else if (text == 'Bot'){
 conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Hi'){
@@ -181,7 +181,7 @@ conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.
 else if (text == 'Gan'){
 conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
-else if (text == 'Sis'){
+else if (text == 'Bang'){
 conn.sendMessage(id, 'Ya?, Ketik ,menu/,info/,donasi Contoh ,menu' ,MessageType.text);
 }
 else if (text == 'Bro'){
