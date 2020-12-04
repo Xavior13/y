@@ -284,7 +284,7 @@ if (text.includes(',nekonime')){
 }
 
 if (text.includes(',waifu')){
-  var teks = text.replace(/!waifu /, '')
+  var teks = text.replace(/,waifu /, '')
     axios.get('https://st4rz.herokuapp.com/api/waifu')
     .then((res) => {
       imageToBase64(res.data.image)
