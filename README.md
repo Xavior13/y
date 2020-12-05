@@ -69,7 +69,8 @@ Ket: Aktiv RANDOM
 ## Note
 BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (Y)
 
-## Sosial Media Admin
+## Sosial Media Admin <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
+
 * [`Youtube Admin`](https://www.youtube.com)
 * [`Instagram Admin`](https://instagram.com/awsotoy)
 * [`WhatsApp Admin `](bit.ly/Bentol)
