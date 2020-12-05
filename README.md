@@ -10,7 +10,7 @@
 <a href="#"><img title="BENTOL" src="https://img.shields.io/badge/BENTOL-blue?colorA=%23fff000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/A187ID"><img title="Author" src="https://img.shields.io/badge/Y-orange.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/benttol"><img title="Author" src="https://img.shields.io/badge/Y-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://www.codefactor.io/repository/github/A187ID/AR15BOT"><img title="Rating" src="https://www.codefactor.io/repository/github/A187ID/AR15BOT/badge/main"></a>
