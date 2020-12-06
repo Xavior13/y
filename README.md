@@ -13,7 +13,7 @@
 <a href="https://github.com/benttol"><img title="Author" src="https://img.shields.io/badge/Y-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://www.codefactor.io/repository/github/benttol.com/y"><img title="Rating" src="https://www.codefactor.io/repository/github.com/benttol/y/badge/main"></a>
+<a href="https://github.com/benttol"><img title="Author" src="https://img.shields.io/badge/AUTHOR-benttol-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/benttol/y/followers"><img title="Followers" src="https://img.shields.io/github/followers/A187ID?color=blue&style=flat-square"></a>
