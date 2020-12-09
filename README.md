@@ -29,7 +29,7 @@
 </details>
 
 
-### Alat dan Bahan
+## Alat dan Bahan
 Siapin alat dan bahannya.
 ```bash
 > niat
@@ -41,9 +41,9 @@ Siapin alat dan bahannya.
 > kopi+rokok ;v
 ```
 
-### Cara Installnya
+## Cara Installnya
 ```bash
-> kalo lu belum punya apk termux, download di playstore
+> $ pkg 
 > masuk ke apk termux lalu ketik dibawah ini!
 > termux-setup-storage
 > pkg install git && pkg install wget && pkg install ffmpeg && pkg install nodejs
